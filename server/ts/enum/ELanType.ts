@@ -1,0 +1,19 @@
+enum ELanType {
+    /** 单通道 */
+    Plug = 'plug',
+    /** 多通道 */
+    Strip = 'strip',
+    /** DualR3 */
+    MultifunSwitch = 'multifun_switch',
+    /** 温湿度开关 */
+    THPlug = 'th_plug',
+    /** 功率检查插座 */
+    EnhancedPlug = 'enhanced_plug',
+    /** RF-Bridge */
+    RF = 'rf',
+    /** 风扇灯 */
+    FanLight = 'fan_light',
+    /** 灯球+灯泡 */
+    Light = 'light',
+}
+export default ELanType;

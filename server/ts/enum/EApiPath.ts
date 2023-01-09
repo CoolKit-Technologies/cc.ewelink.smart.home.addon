@@ -1,0 +1,33 @@
+/** 接口路径 */
+enum EApiPath {
+    /** 账号密码登录接口 */
+    LOGIN_BY_ACCOUNT = '/user/:account/account',
+    /** 获取二维码（暂不开发） */
+    GET_QR_CODE = '/user/:account/account',
+    /** 二维码登录接口（暂不开发） */
+    LOGIN_BY_QR_CODE = '/user/:code/qr-code',
+    /** 获取局域网设备接口 */
+    SCAN_LAN_DEVICE = '/device/lan',
+    /** 获取局域网设备及信息接口 */
+    COMBINE_LAN_DEVICE = '/device',
+    /** 获取凭证接口 */
+    GET_PERMISSION = '/user/access-token',
+    /** 同步单个设备接口 */
+    SYNC_DEVICE = '/device/:deviceId/sync',
+    /** 同步所有设备接口 */
+    SYNC_ALL_DEVICES = '/device/sync',
+    /** 删除单个设备接口 */
+    DELETE_DEVICE = '/device/:deviceId',
+    /** 删除所有设备接口 */
+    DELETE_ALL_DEVICES = '/device',
+    /** 控制设备接口 */
+    CONTROL_DEVICE = '/device/:deviceId',
+    /** 更新设备同步标识 */
+    UPDATE_SYNC_STATUS = '/device/sync-status',
+    /** 获取登录状态 */
+    GET_LOGIN_STATUS = '/user/status',
+    /** 退出登录 */
+    LOG_OUT = '/user'
+}
+
+export default EApiPath;

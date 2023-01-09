@@ -1,0 +1,72 @@
+.Select {
+
+    .room-icon {
+        width: 26px;
+        height: 26px;
+    }
+
+
+    .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+        height: 40px;
+    }
+
+    .ant-select-dropdown {
+        z-index: 9999;
+    }
+
+    .ant-select-single:not(.ant-select-customize-input) .ant-select-selector::after,
+    .ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item,
+    .ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder {
+        line-height: 40px;
+    }
+
+    //显示框的内容
+    .ant-select-lg {
+        font-size: 14px;
+    }
+
+    .ant-select-selection-item {
+        font-size: 14px;
+    }
+
+    //显示的框右边的箭头
+    .ant-select-arrow {
+        font-size: 14px;
+        top: 47%;
+        right: 22px;
+    }
+
+    //下拉选择框
+    .ant-select-item {
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    //显示的内容框
+    .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+        padding: 0 12px;
+        border-radius: 2px;
+    }
+
+    //下拉框的最大高度
+    .rc-virtual-list-holder {
+        // max-height: 200px !important;
+        // height: 200px!important;
+    }
+}
+
+.TimezoneSelect {
+
+    //下拉框的最大高度
+    // .rc-virtual-list-holder {
+        // max-height: 280px !important;
+        // height: 400px!important;
+    // }
+
+    //下拉选择框
+    .ant-select-item {
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+}
